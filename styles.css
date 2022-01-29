@@ -181,7 +181,7 @@ footer {
   align-items: center;
   /* background-color: #f6f9fc; */
   background-color: #02203c;
-  padding: 7em 0em;
+  padding: 7rem 0rem;
   padding-bottom: 4em;
 }
 
@@ -264,7 +264,7 @@ footer {
 }
 
 #panel-container {
-  border-radius: 0.5em;
+  border-radius: 0.5rem;
   width: 70%;
   min-height: 450px;
   display: flex;
@@ -303,10 +303,10 @@ footer {
 
 .tier-card button {
   text-transform: uppercase;
-  width: 46%;
-  height: 12%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  width: 120px;
+  height: 50px;
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
   border: 1px solid rgb(99, 152, 196);
   color: rgb(45, 122, 185);
   background-color: #fff;
@@ -501,17 +501,6 @@ footer {
     display: none;
   }
 
-  /* #languages {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1em;
-  }
-
-  #languages img {
-    width: 90px;
-    height: auto;
-  } */
   #languages {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -522,5 +511,35 @@ footer {
   #languages img {
     width: 70px;
     height: auto;
+  }
+
+  #grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tier-card p {
+    display: none;
+  }
+
+  .tier-card {
+  }
+
+  .tier-card h3 {
+    margin-top: 0.6rem;
+  }
+
+  .tier-card h4 {
+    margin-top: 0.6rem;
+    margin-bottom: 0;
+  }
+  .tier-card img {
+    width: 120px;
+  }
+
+  .tier-card:nth-of-type(1),
+  .tier-card:nth-of-type(2) {
+    border-right: none;
+    border-bottom: 2px solid rgb(204, 204, 204);
   }
 }
