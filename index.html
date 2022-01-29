@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Sandbox</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <img src="./public/science-symbol.svg" alt="company logo" />
+        <h2>CodeWiz</h2>
+      </div>
+      <a class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Our Impact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="/login">Sign in</a></li>
+        </ul>
+        <!-- <span class="icon" onclick="toggleResponsive()">
+          <i class="fa fa-bars"></i>
+        </span> -->
+      </div>
+    </nav>
+
+    <section class="section-one">
+      <h1>CodeWiz</h1>
+      <h2>Learn to code and build a fulfilling career in tech.</h2>
+    </section>
+
+    <section class="courses">
+      <h1>Start Learning</h1>
+      <div class="card-container">
+        <div class="course-card">
+          <img src="./public/swe.svg" alt="software engineering icon" />
+          <h2>Software Engineering</h2>
+          <p>
+            Learn the cutting edge software development technologies such as
+            Node.js and React.
+          </p>
+        </div>
+        <div class="course-card">
+          <img src="./public/ux.svg" alt="ux designer icon" />
+          <h2>UX/UI Design</h2>
+          <p>
+            Launch your UX career by mastering design skills and building a
+            professional-grade portfolio that gets noticed.
+          </p>
+        </div>
+        <div class="course-card">
+          <img src="./public/ml.svg" alt="data science icon" />
+          <h2>Data Science</h2>
+          <p>
+            Master the fundamentals of machine learning to predict patterns from
+            large datasets using Python.
+          </p>
+        </div>
+        <div class="course-card">
+          <img src="./public/da.svg" alt="data analytics icon" />
+          <h2>Data Analytics</h2>
+          <p>
+            Learn to present and communicate data-driver insights via Python, R,
+            SQL, Excel, and Tableau. Create data visualizations and dashboards.
+          </p>
+        </div>
+        <div class="course-card">
+          <img src="./public/cs.svg" alt="cybsersecuity icon" />
+          <h2>Cybersecurity</h2>
+          <p>
+            Launch into one of the top fastest growing jobs with a career in
+            cybersecurity. Elevate your skills and learn to defend against
+            real-world cyber threats.
+          </p>
+        </div>
+        <div class="course-card">
+          <img src="./public/algorithm.svg" alt="algorithms icon" />
+          <h2>Interview Preparation</h2>
+          <p>
+            Master data structures and algorithms to ace your technical
+            interviews.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers">
+      <h1>Why CodeWiz?</h1>
+      <div class="offer-container">
+        <div class="offer-text">
+          <p>
+            CodeWiz is a top-ranked school for tech training. Offering
+            comprehensive remote training opportunities across the world,
+            CodeWiz prepares students fulfilling tech careers.
+          </p>
+          <ul>
+            <li>Learn in-demand skills</li>
+            <li>Choose a schedule that works for you</li>
+            <li>Build a strong network</li>
+            <li>
+              Cultivate professional skills alongside our Career Success team
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="./public/dev2.jpeg" alt="developer" />
+        </div>
+      </div>
+      <div class="learn-more-success">LEARN MORE ABOUT GRADUATE SUCCESS</div>
+    </section>
+    <section class="page-section">
+      <h1>We Speak Many Languages</h1>
+      <p>Learn the most popular programming languages.</p>
+      <div id="languages">
+        <div class="lang-grid-item">
+          <img src="./public/javascript.svg" alt="javascript logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/python.svg" alt="python logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/swift.svg" alt="swift logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/cpp.svg" alt="c++ logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/java.svg" alt="java logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/csharp.svg" alt="c sharp logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/go.svg" alt="go logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/kotlin.svg" alt="kotlin logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/typescript.svg" alt="typescript logo" />
+        </div>
+        <div class="lang-grid-item">
+          <img src="./public/ruby.svg" alt="ruby logo" />
+        </div>
+      </div>
+    </section>
+    <section id="tiers">
+      <h1>Choose Your Plan</h1>
+      <div id="panel-container">
+        <div id="grid-container">
+          <div class="tier-card">
+            <img src="./public/coder.svg" alt="free tier icon" />
+            <h3>Free</h3>
+            <h4>Start learning for free!</h4>
+            <p>
+              Choose your desired career path and learn the fundamentals at no
+              cost.
+            </p>
+            <button>Sign Up</button>
+          </div>
+          <div class="tier-card">
+            <img src="./public/mentor.svg" alt="premium tier icon" />
+            <h3>Premium</h3>
+            <h4>Access premium materials</h4>
+            <p>
+              Master all the skills necessary to advance your career. Includes 1
+              on 1 mentorship and career counseling.
+            </p>
+            <button id="premium-button">Sign Up</button>
+          </div>
+          <div class="tier-card">
+            <img src="./public/team.svg" alt="enterprise tier icon" />
+            <h3>Enterprise</h3>
+            <h4>Advance your team</h4>
+            <p>
+              Access to premium materials and instructors for enterprise
+              customers.
+            </p>
+            <button>Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="companies">
+      <div id="carousel-container">
+        <div id="company-header">
+          <h1>We Promise Great Outcomes</h1>
+          <h3>Our students have gotten offers from awesome companies.</h3>
+        </div>
+        <div class="carousel">
+          <img src="./public/google.png" alt="google logo" />
+          <img src="./public/facebook.png" alt="facebook logo" />
+          <img src="./public/amazon.png" alt="amazon logo" />
+          <img src="./public/microsoft.png" alt="microsoft logo" />
+          <img src="./public/twosigma.png" alt="twosigma logo" />
+          <img src="./public/google.png" alt="google logo" />
+          <img src="./public/facebook.png" alt="facebook logo" />
+          <img src="./public/amazon.png" alt="amazon logo" />
+          <img src="./public/microsoft.png" alt="microsoft logo" />
+          <img src="./public/twosigma.png" alt="twosigma logo" />
+          <img src="./public/google.png" alt="google logo" />
+          <img src="./public/facebook.png" alt="facebook logo" />
+          <img src="./public/amazon.png" alt="amazon logo" />
+          <img src="./public/microsoft.png" alt="microsoft logo" />
+          <img src="./public/twosigma.png" alt="twosigma logo" />
+          <img src="./public/google.png" alt="google logo" />
+          <img src="./public/facebook.png" alt="facebook logo" />
+          <img src="./public/amazon.png" alt="amazon logo" />
+          <img src="./public/microsoft.png" alt="microsoft logo" />
+          <img src="./public/twosigma.png" alt="twosigma logo" />
+        </div>
+        <div class="carousel">
+          <img src="./public/blackrock.png" alt="blackrock logo" />
+          <img src="./public/consensys.png" alt="consensys logo" />
+          <img src="./public/morganstanley.png" alt="morganstanley logo" />
+          <img src="./public/nbc.png" alt="nbc logo" />
+          <img src="./public/simon.png" alt="simon data logo" />
+          <img src="./public/blackrock.png" alt="blackrock logo" />
+          <img src="./public/consensys.png" alt="consensys logo" />
+          <img src="./public/morganstanley.png" alt="morganstanley logo" />
+          <img src="./public/nbc.png" alt="nbc logo" />
+          <img src="./public/simon.png" alt="simon data logo" />
+          <img src="./public/blackrock.png" alt="blackrock logo" />
+          <img src="./public/consensys.png" alt="consensys logo" />
+          <img src="./public/morganstanley.png" alt="morganstanley logo" />
+          <img src="./public/nbc.png" alt="nbc logo" />
+          <img src="./public/simon.png" alt="simon data logo" />
+          <img src="./public/blackrock.png" alt="blackrock logo" />
+          <img src="./public/consensys.png" alt="consensys logo" />
+          <img src="./public/morganstanley.png" alt="morganstanley logo" />
+          <img src="./public/nbc.png" alt="nbc logo" />
+          <img src="./public/simon.png" alt="simon data logo" />
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-col-one">
+        <span>Contact Us</span>
+        <span>FAQ</span>
+        <span>Reviews</span>
+        <span>Blog</span>
+        <span>Careers</span>
+        <span>Project Contests</span>
+        <span>Legal</span>
+        <span>Privacy Policy</span>
+      </div>
+      <div>Copyright &copy; 2018-2021 CodeWiz LLC. All rights reserved.</div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
