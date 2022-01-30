@@ -13,6 +13,7 @@ footer {
   height: 80px;
   background-color: #02203c;
   color: #fff;
+  padding: 2rem 0;
 }
 
 .footer-col-one {
@@ -541,5 +542,30 @@ footer {
   .tier-card:nth-of-type(2) {
     border-right: none;
     border-bottom: 2px solid rgb(204, 204, 204);
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #02203c;
+    border: 1px solid red;
+    color: #fff;
+  }
+
+  .footer-col-one {
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-col-one span {
+    border-right: 2px solid black;
+    padding: 0 0.9rem;
+    margin-bottom: 1rem;
   }
 }
