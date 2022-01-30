@@ -32,65 +32,65 @@
       </div>
     </nav>
 
-    <section class="section-one">
+    <section class="landing">
       <h1>CodeWiz</h1>
       <h2>Learn to code and build a fulfilling career in tech.</h2>
     </section>
 
     <section class="courses">
-      <h1>Start Learning</h1>
+      <h2 class="section-header">Start Learning</h2>
       <div class="card-container">
-        <div class="course-card">
+        <a class="course-card" href="#">
           <img src="./public/swe.svg" alt="software engineering icon" />
-          <h2>Software Engineering</h2>
+          <h3>Software Engineering</h3>
           <p>
             Learn the cutting edge software development technologies such as
             Node.js and React.
           </p>
-        </div>
-        <div class="course-card">
+        </a>
+        <a class="course-card" href="#">
           <img src="./public/ux.svg" alt="ux designer icon" />
-          <h2>UX/UI Design</h2>
+          <h3>UX/UI Design</h3>
           <p>
             Launch your UX career by mastering design skills and building a
             professional-grade portfolio that gets noticed.
           </p>
-        </div>
-        <div class="course-card">
+        </a>
+        <a class="course-card" href="#">
           <img src="./public/ml.svg" alt="data science icon" />
-          <h2>Data Science</h2>
+          <h3>Data Science</h3>
           <p>
             Master the fundamentals of machine learning to predict patterns from
             large datasets using Python.
           </p>
-        </div>
-        <div class="course-card">
+        </a>
+        <a class="course-card" href="#">
           <img src="./public/da.svg" alt="data analytics icon" />
-          <h2>Data Analytics</h2>
+          <h3>Data Analytics</h3>
           <p>
             Learn to present and communicate data-driver insights via Python, R,
             SQL, Excel, and Tableau. Create data visualizations and dashboards.
           </p>
-        </div>
-        <div class="course-card">
+        </a>
+        <a class="course-card" href="#">
           <img src="./public/cs.svg" alt="cybsersecuity icon" />
-          <h2>Cybersecurity</h2>
+          <h3>Cybersecurity</h3>
           <p>
             Launch into one of the top fastest growing jobs with a career in
             cybersecurity. Elevate your skills and learn to defend against
             real-world cyber threats.
           </p>
-        </div>
-        <div class="course-card">
+        </a>
+        <a class="course-card" href="#">
           <img src="./public/algorithm.svg" alt="algorithms icon" />
-          <h2>Interview Preparation</h2>
+          <h3>Interview Preparation</h3>
           <p>
             Master data structures and algorithms to ace your technical
             interviews.
           </p>
-        </div>
+        </a>
       </div>
-      <button class="course-button">Browse Courses</button>
+      <button class="landing-button">Browse Courses</button>
     </section>
 
     <section class="courses-responsive">
@@ -121,11 +121,11 @@
           <h3 class="arrow">></h3>
         </a>
       </div>
-      <button class="course-button">Browse Courses</button>
+      <button class="landing-button">Browse Courses</button>
     </section>
 
     <section class="offers">
-      <h1>Why CodeWiz?</h1>
+      <h2 class="section-header">Why CodeWiz?</h2>
       <div class="offer-container">
         <div class="offer-text">
           <p>
@@ -135,22 +135,23 @@
           </p>
           <ul>
             <li>Learn in-demand skills</li>
-            <li>Choose a schedule that works for you</li>
+            <li>Choose your own schedule</li>
             <li>Build a strong network</li>
-            <li>
-              Cultivate professional skills alongside our Career Success team
-            </li>
+            <li>Cultivate professional skills</li>
           </ul>
         </div>
         <div>
           <img src="./public/dev2.jpeg" alt="developer" class="offer-img" />
         </div>
       </div>
-      <button class="course-button">LEARN MORE ABOUT GRADUATE SUCCESS</button>
+      <button class="landing-button">Learn More</button>
     </section>
-    <section class="page-section">
-      <h2>We Speak Many Languages</h2>
-      <p>Learn the most popular programming languages.</p>
+
+    <section class="language-section">
+      <h2 class="section-header">We Speak Many Languages</h2>
+      <h3 class="section-subheader">
+        Learn the most popular programming languages.
+      </h3>
       <div id="languages">
         <div class="lang-grid-item">
           <img src="./public/javascript.svg" alt="javascript logo" />
@@ -184,8 +185,9 @@
         </div>
       </div>
     </section>
+
     <section id="tiers">
-      <h1>Choose Your Plan</h1>
+      <h2 class="section-header">Choose Your Plan</h2>
       <div id="panel-container">
         <div id="grid-container">
           <div class="tier-card">
@@ -196,7 +198,7 @@
               Choose your desired career path and learn the fundamentals at no
               cost.
             </p>
-            <button>Sign Up</button>
+            <button class="tier-button">Sign Up</button>
           </div>
           <div class="tier-card">
             <img src="./public/mentor.svg" alt="premium tier icon" />
@@ -216,7 +218,7 @@
               Access to premium materials and instructors for enterprise
               customers.
             </p>
-            <button>Sign Up</button>
+            <button class="tier-button">Sign Up</button>
           </div>
         </div>
       </div>
@@ -225,7 +227,7 @@
     <section id="companies">
       <div id="carousel-container">
         <div id="company-header">
-          <h1>We Promise Great Outcomes</h1>
+          <h2 class="section-header">We Promise Great Outcomes</h2>
           <h3>Our students have gotten offers from awesome companies.</h3>
         </div>
         <div class="carousel">
@@ -285,7 +287,9 @@
         <span>Legal</span>
         <span>Privacy Policy</span>
       </div>
-      <div>Copyright &copy; 2018-2022 CodeWiz LLC. All rights reserved.</div>
+      <div class="footer-col-two">
+        Copyright &copy; 2018-2022 CodeWiz LLC. All rights reserved.
+      </div>
     </footer>
     <script src="index.js"></script>
   </body>
