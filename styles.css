@@ -17,12 +17,12 @@ footer {
 }
 
 .footer-col-one {
-  margin-bottom: 0.7em;
+  margin-bottom: 0.7rem;
 }
 
 .footer-col-one span {
   border-right: 2px solid black;
-  padding: 0 0.9em;
+  padding: 0 0.9rem;
 }
 
 .footer-col-one span:nth-of-type(8) {
@@ -160,7 +160,7 @@ footer {
 }
 
 .courses h1 {
-  margin-top: 4em;
+  margin-top: 4rem;
 }
 
 .card-container {
@@ -168,8 +168,8 @@ footer {
   display: grid;
   grid-template-columns: 30% 30% 30%;
 
-  margin-top: 3em;
-  gap: 3em;
+  margin-top: 3rem;
+  gap: 3rem;
 }
 
 .course-card {
@@ -207,12 +207,12 @@ footer {
   align-items: center;
   background-color: #02203c;
   padding: 7rem 0rem;
-  padding-bottom: 4em;
+  padding-bottom: 4rem;
 }
 
 #tiers h2 {
-  font-size: 3em;
-  margin-bottom: 3em;
+  font-size: 3rem;
+  margin-bottom: 3rem;
   color: #fff;
 }
 
@@ -224,8 +224,8 @@ footer {
   justify-content: space-evenly;
   background-color: #02203c;
   color: #fff;
-  padding-top: 7em;
-  padding-bottom: 4em;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
 }
 
 .offers {
@@ -234,8 +234,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 3em;
-  padding-bottom: 6em;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
   background-color: #f6f6f6;
 }
 
@@ -271,7 +271,7 @@ footer {
 .offer-text li::before {
   content: "\2022";
   color: #02203c;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 .offer-container img {
@@ -309,12 +309,12 @@ footer {
 .tier-card h3 {
   color: rgb(134, 134, 134);
   text-transform: uppercase;
-  margin-top: 0.8em;
+  margin-top: 0.8rem;
 }
 
 .tier-card h4 {
-  margin-top: 2.8em;
-  margin-bottom: 2em;
+  margin-top: 2.8rem;
+  margin-bottom: 2rem;
 }
 
 .tier-card p {
@@ -394,7 +394,7 @@ footer {
 }
 
 .carousel img {
-  margin: 0em 2em;
+  margin: 0rem 2rem;
   height: 48px;
   width: auto;
   vertical-align: middle;
@@ -405,7 +405,7 @@ footer {
 }
 
 #company-header h3 {
-  margin-top: 0.6em;
+  margin-top: 0.6rem;
   color: rgb(134, 134, 134);
 }
 
