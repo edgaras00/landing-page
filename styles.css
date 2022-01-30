@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -87,6 +91,7 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   margin-left: 2rem;
+  color: #fff;
 }
 
 .nav-logo img {
@@ -419,6 +424,10 @@ footer {
 #languages img {
   width: 90px;
   height: auto;
+}
+
+.section-subheader {
+  font-size: 1.4rem;
 }
 
 @keyframes move-left {
