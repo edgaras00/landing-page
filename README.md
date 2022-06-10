@@ -1,4 +1,6 @@
 # CodeWiz Landing Page
+https://edgaras00.github.io/landing-page/
+
 <img src="docs/main.png" width="800px">
 Landing page for a fictional coding school.
 <br/>
