@@ -45,7 +45,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(-90deg, #02203c, #001528);
+  /* background: linear-gradient(-90deg, #02203c, #001528); */
+  background-color: #415bb0;
+  padding-top: 0.5rem;
 }
 
 .navbar-links {
@@ -70,7 +72,7 @@ footer {
 }
 
 .navbar-links li:hover {
-  background-color: #333;
+  background-color: rgb(139, 139, 139);
 }
 
 .toggle-button {
@@ -107,16 +109,17 @@ footer {
 
 .landing {
   width: 100%;
-  min-height: 540px;
+  min-height: 620px;
   color: #fff;
-  background-image: url("./public/code6.jpg");
+  /* background-image: url("./public/code6.jpg"); */
+  background-image: url("./public/cover-3.png");
   display: flex;
 
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   padding-bottom: 3rem;
 }
 
@@ -124,6 +127,15 @@ footer {
   font-size: 3.5rem;
   letter-spacing: 1px;
   margin-bottom: 0.2rem;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  padding: 0 0.6rem;
+}
+
+.landing h2 {
+  color: rgb(241, 237, 237);
+  background-color: #000000;
+  padding: 0.25rem 0.6rem;
 }
 
 .courses,
@@ -488,8 +500,15 @@ footer {
   }
 
   .landing {
-    background: linear-gradient(-90deg, #02203c, #001528);
+    /* background: linear-gradient(-90deg, #02203c, #001528); */
+    background: #415bb0;
     text-align: center;
+    justify-content: center;
+  }
+
+  .landing h1,
+  .landing h2 {
+    background-color: transparent;
   }
 
   .courses {
