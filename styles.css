@@ -647,7 +647,4 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .navbar {
-    border: 1px solid red;
-  }
 }
